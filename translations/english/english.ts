@@ -1,7 +1,7 @@
 const ENG_TRANSLATIONS = {
 	your_steem_earnings: 'Your STEEM earnings',
     type_steem_username: 'Please type in your Steemit.com username:',
-    @username:'@Username',
+    username:'Username',
     add_account: 'Add Account',
     manage_accounts: 'Manage Accounts',
     your_accounts: 'Your Accounts',
