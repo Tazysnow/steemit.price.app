@@ -8,18 +8,18 @@
 		<mat-card-content>
 			
 				<div class="section">
-					<h2 class="section-title">{{"potential_post_payout:"" | translate}}</h2>
+					<h2 class="section-title">{{"potential_post_payout:" | translate}}</h2>
 					<div class="section-content">
 						<mat-form-field class="full-width block-input">
-							<input matInput type="number"  placeholder="Potential Earnings"  [(ngModel)]="PotentialEarnings" (ngModelChange)="PotentialEarnings=$event;calculateEarnings()" />
+							<input matInput type="number"  placeholder= {{"potential_earnings" | translate}}  [(ngModel)]="PotentialEarnings" (ngModelChange)="PotentialEarnings=$event;calculateEarnings()" />
 						</mat-form-field>
 						
 						<mat-form-field class="full-width block-input">
-							<input matInput type="number" placeholder="Beneficals % (Default 25% is already applied)" [ngModel]="PayoutShares | number:'1.4-4'" (ngModelChange)="PayoutShares=$event; calculateEarnings()" />
+							<input matInput type="number" placeholder= {{"beneficals_default" | translate}} [ngModel]="PayoutShares | number:'1.4-4'" (ngModelChange)="PayoutShares=$event; calculateEarnings()" />
 						</mat-form-field>
 
 						<mat-form-field class="full-width block-input">
-							<input matInput type="number" placeholder="$ (SBD)" [ngModel]="SBDEarnings | number:'1.2-4'" (ngModelChange)="SBDEarnings=$event; calculateEarnings()" />
+							<input matInput type="number" placeholder="$ {{"(SBD)" | translate}}" [ngModel]="SBDEarnings | number:'1.2-4'" (ngModelChange)="SBDEarnings=$event; calculateEarnings()" />
 						</mat-form-field>
 					</div>
 				</div>
