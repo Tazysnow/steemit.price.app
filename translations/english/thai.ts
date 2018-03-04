@@ -1,6 +1,7 @@
 const TH_TRANSLATIONS = {
 	your_steem_earnings: 'รายได้ STEEM ของคุณ',
-	type_steem_username: 'โปรดพิมพ์ชื่อผู้ใช้ Steemit.com ของคุณ:',
+    type_steem_username: 'โปรดพิมพ์ชื่อผู้ใช้ Steemit.com ของคุณ:',
+    @username:'@ชื่อผู้ใช้',
     add_account: 'เพิ่มบัญชี',
     manage_accounts: 'จัดการบัญชี',
     your_accounts: 'บัญชีของคุณ',
@@ -26,7 +27,7 @@ const TH_TRANSLATIONS = {
     current_exchange_rate : 'อัตราการแลกเปลี่ยนปัจจุบัน',
     REFRESH: 'รีเฟรช',
 
-    payout_overview: 'การจ่ายเงินภาพโดยรวม',
+    payout_overview: 'การจ่ายเงินโดยรวม',
 
     steem_calculator: 'เครื่องคำนวณ Steem',
     potential_post_payout: 'การจ่ายเงินโพสต์ที่เป็นไปได้:',
