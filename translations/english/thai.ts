@@ -15,11 +15,11 @@ const TH_TRANSLATIONS = {
     steem_data_loading : "เรากำลังรวบรวมข้อมูลของคุณจากฐานข้อมูลใน steemit.com ซึ่งอาจใช้เวลาสักครู่! ",
     pending_posts: 'โพสต์ที่รอดำเนินการ:',
     no_posts_to_display: 'ไม่มีโพสต์ที่จะแสดง',
-    SBD: 'SBD',
+    sbd: 'SBD',
     pending_comments: 'ความเห็นที่รอดำเนินการ:',
     no_comments_to_display: 'ไม่มีความคิดเห็นที่จะแสดง',
-    SBD: 'SBD',
-    REFRESH: 'รีเฟรช',
+    sbd: 'SBD',
+    refresh: 'รีเฟรช',
     
     //earnings
     earnings_of: 'รายได้จาก ',
@@ -27,12 +27,12 @@ const TH_TRANSLATIONS = {
     steem_data_loading : "เรากำลังรวบรวมข้อมูลของคุณจากฐานข้อมูลใน steemit.com ซึ่งอาจใช้เวลาสักครู่! ",
     potential_payout: 'การจ่ายเงินที่อาจเกิดขึ้น',
     estimated_payout:'การจ่ายเงินโดยประมาณ',
-    beneficals_SBD:'ผลประโยชน์ที่ได้รับ (SBD)',
-    total_reward_SBD:'รางวัลรวม(SBD)',
+    beneficals_sbd:'ผลประโยชน์ที่ได้รับ (SBD)',
+    total_reward_sbd:'รางวัลรวม(SBD)',
     estimated_total_earnings: 'รายได้รวมโดยประมาณ:',
     estimated_Author_earnings: 'รายได้โดยประมาณของผู้เขียน:',
     current_exchange_rate : 'อัตราการแลกเปลี่ยนปัจจุบัน',
-    REFRESH: 'รีเฟรช',
+    refresh: 'รีเฟรช',
 
     payout_overview: 'การจ่ายเงินโดยภาพรวม',
 
@@ -42,9 +42,9 @@ const TH_TRANSLATIONS = {
     potential_earnings: 'รายได้โดยประมาณ',
     beneficals_default:' %ที่ได้รับ (เริ่มต้น 25% คือที่ถูกนำไปใช้แล้ว)',
     potential_earnings: 'รายได้โดยประมาณ',
-    SBD:'(SBD)',
+    sbd:'(SBD)',
     exchange_rate: 'อัตราแลกเปลี่ยน:',
-    REFRESH: 'รีเฟรช',
+    refresh: 'รีเฟรช',
 
     //default layout
     steem_earnings: 'เครื่องคำนวณ Steem',

@@ -57,7 +57,7 @@
 
 		<button mat-button [matMenuTriggerFor]="accountMenu" *ngIf="accounts.length">
 			<img *ngIf="mediator.getValue('account')" class="user-icon" src="https://steemitimages.com/u/{{mediator.getValue('account')}}/avatar" />
-			<span class="username">{{mediator.getValue('account') || {{ "select_account"| translate}}}}</span>
+			<span class="username">{{mediator.getValue('account') || "select_account"| translate}}</span>
 		</button>
 
 		<mat-menu #accountMenu="matMenu">
